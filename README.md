@@ -1,2 +1,2 @@
 # ircpythonbot
-Sime IRC Bot in Python
+Simple IRC Bot in Python
