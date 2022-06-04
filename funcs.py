@@ -46,7 +46,7 @@ class Bot:
                 i += 1
                 message = message.lstrip(":")
 
-            if sender == configs.admin:
+            if sender == configs.admin and r_words[2] == configs.nickname:
                 self.irc_socket.send(bytes(message, self.encoding))
 
         return r
